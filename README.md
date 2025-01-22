@@ -1,1 +1,123 @@
-# portifolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - M SIDDHARTHAROYAL</title>
+    <style>
+        /* Basic CSS styling for the portfolio */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>M SIDDHARTHAROYAL</h1>
+        <p>Web Developer | Data Science Enthusiast | UI/UX Designer</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with a keen interest in designing and developing 
+            user-friendly websites. I specialize in creating responsive and visually appealing 
+            interfaces using HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Python, C</li>
+            <li>Data Structures and DBMS</li>
+            <li>UI/UX Designing</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Portfolio Designing</h3>
+        <p>
+            Designed and developed a personal portfolio website using HTML, CSS, and JavaScript.
+            Integrated responsive design for mobile-friendly viewing and implemented smooth navigation features.
+        </p>
+        <h3>Basic Calculator</h3>
+        <p>
+            Built a functional calculator application with basic arithmetic operations 
+            using HTML, CSS, and JavaScript, ensuring seamless user interaction.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:siddartharoyal143@gmail.com">siddartharoyal143@gmail.com</a></p>
+        <p>Phone: 9440369638</p>
+        <p>Location: Kurumamidi, Gandlapenta Mandal</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 M SIDDHARTHAROYAL. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
